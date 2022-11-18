@@ -1,0 +1,218 @@
+body{
+    background-color: #bcbcbe !important;
+
+}
+input{
+  height: 3rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.form-select{
+  font-size: 1.4rem!important;
+}
+input::placeholder,i{
+  font-size: 1.6rem;
+}
+.popup{
+    width: 60%;
+    margin: 2rem auto;
+    font-size: 1.4rem;
+}
+.tab-body{
+    background-color: white;
+    position: relative;
+    /*height: 20rem;*/
+  }
+  .tab-body >div{
+    position:absolute;
+    width: 100%;
+    top: -150vh;
+    opacity: 0;
+    padding: 1rem;
+    transition: opacity 300ms ease-in-out 0ms;
+  
+  }
+  .tab-body >div.active{
+    top: 0px;
+    opacity: 1;
+    transition: opacity 300ms ease-in-out 0ms;
+  }
+  .tab-form .tab-header{
+    display: flex;
+    padding: 0rem;
+    cursor: pointer;
+  }
+  .tab-form .tab-header > div{
+    background-color: #b66b16;
+    color: #221c15;
+    padding: 0.5rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: 1rem;
+  }
+  .tab-form .tab-header > div.active{
+    background-color: white;
+    color: #b66b16;
+    padding: 0.5rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: 1rem;
+  
+  }
+  .login , .request, .forgot{
+    background-color: white;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+    
+  .form-input label{
+    display: block;
+    margin-top: 1rem;
+  }
+  .form-input{
+    margin-top: 1rem;
+    width: 100%;
+  
+  }
+  .form-input input{
+    width: 100%;
+    border: 2px solid #bcbcbe;
+    border-left:none ;
+  
+  }
+  .log{
+    display: flex!important;
+  
+  }
+   .log input{
+  width: 3%;
+  margin-top: 1rem;
+  }
+  .form-input i{
+    border: 2px solid #bcbcbe;
+    border-right:none ;
+    padding: 0 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+  }
+  .popup .login i{
+    margin: 0;
+    font-size: 1.6rem;
+  }
+  .popup textarea{
+    width: 100%;
+  }
+  .popup button{
+    border: none;
+    background-color: #b66b16;
+    border-radius: 0.2rem;
+    padding: 0.2rem 0.5rem;
+    float: right;
+  }
+  .popup .name input{
+    border: 2px solid #bcbcbe;
+    border-radius: 0.5rem;
+
+    
+  }
+  .popup .name{
+    width: 100%;
+  }
+  .popup .name2 input{
+    width: 90%;
+    
+  }
+  input[type=checkbox] {
+    accent-color: #b66b16;
+    border: 2px solid #bcbcbe;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    height: 2rem;
+  }
+input:focus,input:active,input:hover{
+  outline:0px !important;
+
+}
+  textarea:hover, 
+textarea:active, 
+textarea:focus, 
+button:focus,
+button:active,
+button:hover,
+label:focus,
+select:active,
+select:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+@media only screen and (max-width: 900px) {
+  .popup{
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .form-select{
+    font-size: 1rem!important;
+  }
+  input::placeholder,i{
+    font-size: 1.1rem;
+  }
+  .popup .login i{
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  input{
+    height: 2rem;
+  }
+  .popup{
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .tab-form .tab-header > div.active {
+    background-color: white;
+    color: #b66b16;
+    padding: 0.2rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: 0.2rem;
+}
+.tab-form .tab-header > div {
+  padding: 0.2rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-right: 0.2rem;
+
+}
+.popup{
+  font-size: 1rem;
+}
+.form-select{
+  font-size: 0.8rem!important;
+}
+input::placeholder,i{
+  font-size: 0.8rem;
+}
+.popup .login i{
+  margin: 0;
+  font-size: 0.8rem;
+}
+input{
+  height: 1.6rem;
+}
+input[type=checkbox]{
+  height: 2rem;
+  margin-top:0.8rem;
+  margin-right: 0.5rem;
+
+}
+.form-input {
+  margin-top: 0.5rem;
+}
+
+
+}
